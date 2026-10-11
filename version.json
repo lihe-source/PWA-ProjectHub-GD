@@ -1,0 +1,22 @@
+{
+  "appId": "pwa-projecthub-gd",
+  "version": "1.0.0",
+  "displayVersion": "V1.0.0",
+  "build": "1791689363577",
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-11T03:29:23.578493+00:00",
+  "files": {
+    "index.html": "013e7fba58164e2642e45d718b0388ed307c043c76ce689a50fb7c181aaf8958",
+    "styles.css": "073218e84a90a6b1a025deb203b5f420a46323486229106bcfb6d35f7eacf6ca",
+    "app.js": "9b1fcf0ad9f1fd1d943b8b793bdb6892bc651180d63e880f65353b408a60ba36",
+    "core.js": "d9acf69da00c71b2d437ad5dbb918c288d336eee52f7c3c2d3045861e9ac52fd",
+    "api.js": "6c17069443ab9a87057c870b53eafb0212aac0ba44e273281d4d117cab3d62a6",
+    "seed.js": "e211cf56ce0db92578e5989510df05739e3e7541c174f9f8eb9eb728d205a4ff",
+    "update.js": "7c6fa5043d18a21b0d7f24a92c84372cd73a01be2c19537d3b38b7cab5cbd119",
+    "manifest.webmanifest": "f110e2eee0055b1f6b2346d396c5513c5dadedff0936e5a52b4f2abc4c490183",
+    "favicon.svg": "b9f9f7814708b789664196dbd50784a83936bf72da100be49877cf8109aba619",
+    "icon-192.png": "0d5f50761e4955fc11272f55c25721af533466a956f31f23b61618bdad7ae160",
+    "icon-512.png": "9c0f4acec6f4529eeb62cee889e08b69edf873ddc98cf5daaced7180c1676c38",
+    "apple-touch-icon.png": "68bc3a56c6fbd61b1f5dc828aac5588c3131cecad38860ff6873bcd718c375f9"
+  }
+}
