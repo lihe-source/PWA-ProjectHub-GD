@@ -1,11 +1,17 @@
-# PWA 專案總覽 V1.0.0
+# PWA 專案總覽 V1.0.1
 
 可部署於 GitHub Pages 的純前端 PWA，無需 Node.js、Google 登入或後端服務。程式介面使用繁體中文，預設深色，可切換淺色。
+
+## V1.0.1 列表版
+
+首頁改為每個專案一列，直接顯示名稱、程式位置、儲存庫版本、網站版本與開啟按鈕。電腦／平板另列狀態及查詢時間；手機使用緊湊三欄排列，無須橫向捲動。較長名稱與版號可按「詳情」查看完整內容、資料來源、網址、錯誤提示並編輯或設定常用。查詢進行時會保留已展開的詳情。
+
+頂部標題、統計與搜尋工具也縮小，讓同一畫面可看更多專案。原有隱藏、排序、搜尋、備份及自動更新功能保留；部署到相同儲存庫路徑會沿用原有本機設定。
 
 ## 立即部署
 
 1. 在 `lihe-source` 帳號建立一個 **Public** 儲存庫，建議名稱 `PWA-ProjectHub-GD`。
-2. 解壓縮 ZIP，開啟 `PWA-ProjectHub-GD-V1_0_0` 資料夾。將**裡面的全部檔案**上傳到 GitHub 儲存庫的 `main` 根目錄。不要再把外層資料夾一起上傳，也不要只上傳 ZIP。手機檔案選擇器可能隱藏 `.nojekyll`；它是選用的，這個純靜態專案未包含需 Jekyll 忽略的底線目錄。
+2. 解壓縮 ZIP，開啟 `PWA-ProjectHub-GD-V1_0_1` 資料夾。將**裡面的全部檔案**上傳到 GitHub 儲存庫的 `main` 根目錄。不要再把外層資料夾一起上傳，也不要只上傳 ZIP。手機檔案選擇器可能隱藏 `.nojekyll`；它是選用的，這個純靜態專案未包含需 Jekyll 忽略的底線目錄。
 3. GitHub → 儲存庫 **Settings → Pages**。
 4. **Source：Deploy from a branch**；**Branch：main**；**Folder：/(root)**；按 **Save**。
 5. 等待 GitHub Pages 部署完成，在 Pages 設定頁開啟它顯示的網址。若使用上述帳號和儲存庫名稱，網址為 `https://lihe-source.github.io/PWA-ProjectHub-GD/`。
@@ -56,7 +62,7 @@
 - 新版本的所有程式檔必須下載完成，並通過 version.json 的 SHA-256 完整性比對，才會切換版本；下載或部署不完整時保留舊版本。
 - 有編輯／確認視窗或版本查詢正在執行時，會等完成後再自動套用並重新載入，保留已儲存的專案設定。
 - 這項自動更新只更新**本專案總覽 PWA**；其他 PWA 的更新由各自程式負責，本總覽只顯示及比較版本。
-- 日後改程式後，使用 Python 3 執行 `python UPDATE_BUILD.py --version 1.0.1`，它會同步 APP_VERSION、Service Worker build、頁面版號及各檔案雜湊；再完整上傳更新後的檔案。第一次部署此 ZIP **不用執行**。
+- 日後改程式後，使用 Python 3 執行 `python UPDATE_BUILD.py --version 1.0.2`，它會同步 APP_VERSION、Service Worker build、頁面版號及各檔案雜湊；再完整上傳更新後的檔案。第一次部署此 ZIP **不用執行**。
 - 程式不會清除同一網域其他 PWA 的快取；Service Worker、快取與本機設定均以本儲存庫路徑區隔。
 
 ## 離線與排錯

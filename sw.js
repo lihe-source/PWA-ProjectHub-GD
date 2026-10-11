@@ -1,5 +1,5 @@
-const BUILD='1791689363577';
-const APP_VERSION='1.0.0';
+const BUILD='1791692737435';
+const APP_VERSION='1.0.1';
 const PREFIX='pwa-projecthub:'+encodeURIComponent(new URL(self.registration.scope).pathname)+':';
 const CACHE=PREFIX+BUILD;
 const SHELL=['index.html','styles.css','app.js','core.js','api.js','seed.js','update.js','manifest.webmanifest','favicon.svg','icon-192.png','icon-512.png','apple-touch-icon.png'];
